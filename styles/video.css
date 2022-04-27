@@ -1,6 +1,44 @@
 .video-preview-grid{
-    margin-top: 65px;
-    margin-left: 85px;
-    border: 1px solid black;
+    display: grid;
     
+    display: inline-block;
+    margin-top: 65px;
+    margin-left: 95px;
+    
+    
+}
+.video-preview{
+    display: block;
+    border: 1px solid;
+    height: 270px;
+    width: 355px;
+}
+.thumbnail{
+    height: 200px;
+}
+.thumbnail img{
+    height: 100%;
+}
+.video-info{
+    display: flex;
+}
+
+.channel-icon{
+    margin-right:10px ;
+}
+.channel-icon img{
+    border-radius: 25px;
+    width: 50px;
+}
+
+.title{
+    font-weight: 500;
+}
+.channel-name{
+    margin-top: 10px;
+    font-size: 15px;
+}
+.video-stats{
+    font-size: 13px;
+    margin-top: 5px;
 }
